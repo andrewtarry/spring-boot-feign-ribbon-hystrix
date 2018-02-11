@@ -1,0 +1,10 @@
+eureka:
+    enabled: false
+
+ribbon:
+    products:
+      listOfServers: api1.example.com,api2.example.com
+
+feign:
+  hystrix:
+    enabled: true
